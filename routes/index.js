@@ -1,5 +1,5 @@
 var express = require('express');
-const mongoose = require('mongoose')
+// const mongoose = require('mongoose')
 var router = express.Router();
 
 
@@ -8,5 +8,5 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.post()
+// router.post()
 module.exports = router;
